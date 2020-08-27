@@ -1,6 +1,6 @@
 # NYC-Taxi-Analysis
 - Implemented a predictive model to predict the total fare by analyzing 40 million past trips and built a stacked ensemble model using XGBoost and LGBM.
-- Performed Data Cleaning & Data Preprocessing, feature engineering, data visualization to select the best features.
+- Performed Data Cleaning & Data Preprocessing, feature engineering, data visualization to determine the key factors involved in predicting the fare.
 - Evaluated and assessed the model on the test data using Mean-Squared Error as a performance metric.
 
 **Technology used:** Python, Pandas, NumPy, Jupyter Notebook, SQLite, SQLalchemy, XGBoost, Sckit-Learn, Seaborn, matplotlib
