@@ -1,6 +1,8 @@
 # NYC-Taxi-Analysis
-Exploratory and Predictive analysis on NYC taxi data
+- Implemented a predictive model to predict the total fare by analyzing 40 million past trips and built a stacked ensemble model using XGBoost and LGBM.
+- Performed Data Cleaning & Data Preprocessing, feature engineering, data visualization to select the best features.
+- Evaluated and assessed the model on the test data using Mean-Squared Error as a performance metric.
 
-Here, we are going to perform data cleaning, feature engineering, data visualization for which we will prefer seaborn and will train Random Forest, XGBoost & LGBM models then will compare and apply GridSearchCV parameter selection on the better one to check if it does any more improvement and at last will ensemble best predictions.
+**Technology used:** Python, Pandas, NumPy, Jupyter Notebook, SQLite, SQLalchemy, XGBoost, Sckit-Learn, Seaborn, matplotlib
 
-Thanks to kagglers, I am going through many splendid kernels and learning new techniques and approaches and yes this is my first Kaggle competition submission, will be glad to have your suggestions :)
+Major goal to do this project was to work with the data from scratch, starting from downloading it to ingesting it into a database to performing data-preprocessing. And thus, instead of using the well structed data from Kaggle, I used the raw data avaialble from the TLC website. I also got the opportuninty to work with a database for data analysis task, and learn how to use and ensemble model. I use SQLite and SQLalchemy as ORM to interact with the DB. For exploratory data analysis I preferred seaborn and matplotlib. And, used XGBoost and LGBM to train the models using GridSearchCV with cross-validation for parameter selection and at the last, I ensembled the best prediction.
